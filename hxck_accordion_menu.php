@@ -1,7 +1,7 @@
 <?php
 /*
 		Plugin Name: Hxck accordion menu
-		Plugin URI: 
+		Plugin URI: https://github.com/Hxcktivist/hxck-accordion-menu
 		Tags: jquery, dropdown, menu, vertical accordion, animated, css, navigation, accordion
 		Description: Создание вертикального аккардеон из любого пользовательского меню Wordpress с помощью jQuery. Добавление меню с помощью виджетов. Функции включают - Сохраненное состояния с помощью файлов cookie и опцию выбора событий «Нажатия» или «Наведения» для запуска меню и самое главное, сохраняет позицию меню на выбранной странице.
 		Author: Hxcktivist
