@@ -150,28 +150,28 @@ class dc_jqaccordion_widget extends WP_Widget {
 	</p>
 	<p>
 		<input type="radio" id="<?php echo $this->get_field_id('event1'); ?>" name="<?php echo $this->get_field_name('event'); ?>" value="click"<?php checked( $event, 'click' ); ?> /> 
-		<label for="<?php echo $this->get_field_id('event1'); ?>"><?php _e( 'Click' , 'dcjq-accordion' ); ?></label>
+		<label for="<?php echo $this->get_field_id('event1'); ?>"><?php _e( 'Нажатие' , 'dcjq-accordion' ); ?></label>
 		<input type="radio" id="<?php echo $this->get_field_id('event2'); ?>" name="<?php echo $this->get_field_name('event'); ?>" value="hover"<?php checked( $event, 'hover' ); ?> /> 
-		<label for="<?php echo $this->get_field_id('event2'); ?>"><?php _e( 'Hover' , 'dcjq-accordion' ); ?></label>
+		<label for="<?php echo $this->get_field_id('event2'); ?>"><?php _e( 'Наведение' , 'dcjq-accordion' ); ?></label>
 	</p>
 	<p>
 		<input type="checkbox" value="true" class="checkbox" id="<?php echo $this->get_field_id('autoClose'); ?>" name="<?php echo $this->get_field_name('autoClose'); ?>"<?php checked( $autoClose, 'true' ); ?> />
-		<label for="<?php echo $this->get_field_id('autoClose'); ?>"><?php _e( 'Auto Close Open Menus' , 'dcjq-accordion' ); ?></label><br />
+		<label for="<?php echo $this->get_field_id('autoClose'); ?>"><?php _e( 'Автоматическое закрытие открытых меню' , 'dcjq-accordion' ); ?></label><br />
 		
 		<input type="checkbox" value="true" class="checkbox" id="<?php echo $this->get_field_id('saveState'); ?>" name="<?php echo $this->get_field_name('saveState'); ?>"<?php checked( $saveState, 'true'); ?> />
-		<label for="<?php echo $this->get_field_id('saveState'); ?>"><?php _e( 'Save Menu State (uses cookies)' , 'dcjq-accordion' ); ?></label><br />
+		<label for="<?php echo $this->get_field_id('saveState'); ?>"><?php _e( 'Сохранить состояние меню (использует куки)' , 'dcjq-accordion' ); ?></label><br />
 		
 		<input type="checkbox" value="true" class="checkbox" id="<?php echo $this->get_field_id('autoExpand'); ?>" name="<?php echo $this->get_field_name('autoExpand'); ?>"<?php checked( $autoExpand, 'true' ); ?> />
-		<label for="<?php echo $this->get_field_id('autoExpand'); ?>"><?php _e( 'Auto Expand Based on Current Page/Item' , 'dcjq-accordion' ); ?></label><br />
+		<label for="<?php echo $this->get_field_id('autoExpand'); ?>"><?php _e( 'Автоматическое развертывание на основе текущей страницы/элемента' , 'dcjq-accordion' ); ?></label><br />
 		
 		<input type="checkbox" value="true" class="checkbox" id="<?php echo $this->get_field_id('disableLink'); ?>" name="<?php echo $this->get_field_name('disableLink'); ?>"<?php checked( $disableLink, 'true' ); ?> />
-		<label for="<?php echo $this->get_field_id('disableLink'); ?>"><?php _e( 'Disable Parent Links' , 'dcjq-accordion' ); ?></label><br />
+		<label for="<?php echo $this->get_field_id('disableLink'); ?>"><?php _e( 'Отключить родительские ссылки' , 'dcjq-accordion' ); ?></label><br />
 
 		<input type="checkbox" value="true" class="checkbox" id="<?php echo $this->get_field_id('menuClose'); ?>" name="<?php echo $this->get_field_name('menuClose'); ?>"<?php checked( $menuClose, 'true' ); ?> />
-		<label for="<?php echo $this->get_field_id('menuClose'); ?>"><?php _e( 'Close Menu (hover only)' , 'dcjq-accordion' ); ?></label><br />
+		<label for="<?php echo $this->get_field_id('menuClose'); ?>"><?php _e( 'Закрыть меню (только при наведении курсора)' , 'dcjq-accordion' ); ?></label><br />
 		
 		<input type="checkbox" value="true" class="checkbox" id="<?php echo $this->get_field_id('showCount'); ?>" name="<?php echo $this->get_field_name('showCount'); ?>"<?php checked( $showCount, 'true' ); ?> />
-		<label for="<?php echo $this->get_field_id('showCount'); ?>"><?php _e( 'Show Count' , 'dcjq-accordion' ); ?></label>
+		<label for="<?php echo $this->get_field_id('showCount'); ?>"><?php _e( 'Показать число' , 'dcjq-accordion' ); ?></label>
 	</p>
 	<p>
 		<label for="<?php echo $this->get_field_id('classMenu'); ?>"><?php _e('Класс меню:') ?></label>
