@@ -51,7 +51,7 @@ class dc_jqaccordion {
 };
 
 // Include the widget
-include_once('dcwp_jquery_accordion_widget.php');
+include_once('hxck_accordion_menu_widget.php');
 
 // Initialize the plugin.
 $dcjqaccordion = new dc_jqaccordion();
